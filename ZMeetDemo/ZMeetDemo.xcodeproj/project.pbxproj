@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E62DAE0B6E633957DFBFAF /* libPods-ZMeetDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C1D99867C8877060BCF391 /* libPods-ZMeetDemo.a */; };
+		D7DCA91E254FF12300076B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DCA91D254FF12300076B5B /* AppDelegate.m */; };
+		D7DCA924254FF12300076B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DCA923254FF12300076B5B /* ViewController.m */; };
+		D7DCA927254FF12300076B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DCA925254FF12300076B5B /* Main.storyboard */; };
+		D7DCA929254FF12600076B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DCA928254FF12600076B5B /* Assets.xcassets */; };
+		D7DCA92C254FF12600076B5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7DCA92A254FF12600076B5B /* LaunchScreen.storyboard */; };
+		D7DCA92F254FF12600076B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DCA92E254FF12600076B5B /* main.m */; };
+		D7DCA944254FF1EA00076B5B /* ABCVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DCA93E254FF1EA00076B5B /* ABCVideoView.m */; };
+		D7DCA945254FF1EA00076B5B /* DemoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DCA93F254FF1EA00076B5B /* DemoApi.m */; };
+		D7DCA946254FF1EA00076B5B /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DCA943254FF1EA00076B5B /* UIColor+Hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D6831A1415D4F07D8AA5FA0 /* Pods-ZMeetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMeetDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZMeetDemo/Pods-ZMeetDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1F75910DF7EFE00E8A38DB79 /* Pods-ZMeetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMeetDemo.release.xcconfig"; path = "Target Support Files/Pods-ZMeetDemo/Pods-ZMeetDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C5C1D99867C8877060BCF391 /* libPods-ZMeetDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZMeetDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DCA919254FF12300076B5B /* ZMeetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZMeetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DCA91C254FF12300076B5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7DCA91D254FF12300076B5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7DCA922254FF12300076B5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7DCA923254FF12300076B5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7DCA926254FF12300076B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7DCA928254FF12600076B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7DCA92B254FF12600076B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7DCA92D254FF12600076B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7DCA92E254FF12600076B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7DCA93E254FF1EA00076B5B /* ABCVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCVideoView.m; sourceTree = "<group>"; };
+		D7DCA93F254FF1EA00076B5B /* DemoApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoApi.m; sourceTree = "<group>"; };
+		D7DCA940254FF1EA00076B5B /* ABCVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCVideoView.h; sourceTree = "<group>"; };
+		D7DCA941254FF1EA00076B5B /* DemoApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoApi.h; sourceTree = "<group>"; };
+		D7DCA942254FF1EA00076B5B /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		D7DCA943254FF1EA00076B5B /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7DCA916254FF12300076B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E62DAE0B6E633957DFBFAF /* libPods-ZMeetDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205F653A4421AA1BA9010D05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D6831A1415D4F07D8AA5FA0 /* Pods-ZMeetDemo.debug.xcconfig */,
+				1F75910DF7EFE00E8A38DB79 /* Pods-ZMeetDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		3DDA376BBAEC1CC6A14480DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C1D99867C8877060BCF391 /* libPods-ZMeetDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7DCA910254FF12300076B5B = {
+			isa = PBXGroup;
+			children = (
+				D7DCA91B254FF12300076B5B /* ZMeetDemo */,
+				D7DCA91A254FF12300076B5B /* Products */,
+				205F653A4421AA1BA9010D05 /* Pods */,
+				3DDA376BBAEC1CC6A14480DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7DCA91A254FF12300076B5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7DCA919254FF12300076B5B /* ZMeetDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7DCA91B254FF12300076B5B /* ZMeetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D7DCA940254FF1EA00076B5B /* ABCVideoView.h */,
+				D7DCA93E254FF1EA00076B5B /* ABCVideoView.m */,
+				D7DCA941254FF1EA00076B5B /* DemoApi.h */,
+				D7DCA93F254FF1EA00076B5B /* DemoApi.m */,
+				D7DCA942254FF1EA00076B5B /* UIColor+Hex.h */,
+				D7DCA943254FF1EA00076B5B /* UIColor+Hex.m */,
+				D7DCA91C254FF12300076B5B /* AppDelegate.h */,
+				D7DCA91D254FF12300076B5B /* AppDelegate.m */,
+				D7DCA922254FF12300076B5B /* ViewController.h */,
+				D7DCA923254FF12300076B5B /* ViewController.m */,
+				D7DCA925254FF12300076B5B /* Main.storyboard */,
+				D7DCA928254FF12600076B5B /* Assets.xcassets */,
+				D7DCA92A254FF12600076B5B /* LaunchScreen.storyboard */,
+				D7DCA92D254FF12600076B5B /* Info.plist */,
+				D7DCA92E254FF12600076B5B /* main.m */,
+			);
+			path = ZMeetDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7DCA918254FF12300076B5B /* ZMeetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DCA932254FF12600076B5B /* Build configuration list for PBXNativeTarget "ZMeetDemo" */;
+			buildPhases = (
+				076823CF10BAC9D59F1B6D9D /* [CP] Check Pods Manifest.lock */,
+				D7DCA915254FF12300076B5B /* Sources */,
+				D7DCA916254FF12300076B5B /* Frameworks */,
+				D7DCA917254FF12300076B5B /* Resources */,
+				D799DF92BE6BC7F0F3E23828 /* [CP] Embed Pods Frameworks */,
+				FBE991B3FAD9CFAE4949F4C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMeetDemo;
+			productName = ZMeetDemo;
+			productReference = D7DCA919254FF12300076B5B /* ZMeetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7DCA911254FF12300076B5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D7DCA918254FF12300076B5B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D7DCA914254FF12300076B5B /* Build configuration list for PBXProject "ZMeetDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7DCA910254FF12300076B5B;
+			productRefGroup = D7DCA91A254FF12300076B5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7DCA918254FF12300076B5B /* ZMeetDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7DCA917254FF12300076B5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DCA92C254FF12600076B5B /* LaunchScreen.storyboard in Resources */,
+				D7DCA929254FF12600076B5B /* Assets.xcassets in Resources */,
+				D7DCA927254FF12300076B5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		076823CF10BAC9D59F1B6D9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZMeetDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D799DF92BE6BC7F0F3E23828 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZMeetDemo/Pods-ZMeetDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZMeetDemo/Pods-ZMeetDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZMeetDemo/Pods-ZMeetDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE991B3FAD9CFAE4949F4C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZMeetDemo/Pods-ZMeetDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZMeetDemo/Pods-ZMeetDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZMeetDemo/Pods-ZMeetDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7DCA915254FF12300076B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DCA924254FF12300076B5B /* ViewController.m in Sources */,
+				D7DCA946254FF1EA00076B5B /* UIColor+Hex.m in Sources */,
+				D7DCA944254FF1EA00076B5B /* ABCVideoView.m in Sources */,
+				D7DCA91E254FF12300076B5B /* AppDelegate.m in Sources */,
+				D7DCA945254FF1EA00076B5B /* DemoApi.m in Sources */,
+				D7DCA92F254FF12600076B5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7DCA925254FF12300076B5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7DCA926254FF12300076B5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7DCA92A254FF12600076B5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7DCA92B254FF12600076B5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7DCA930254FF12600076B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7DCA931254FF12600076B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7DCA933254FF12600076B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6831A1415D4F07D8AA5FA0 /* Pods-ZMeetDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67W5984PLX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZMeetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcpen.ZMeetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7DCA934254FF12600076B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F75910DF7EFE00E8A38DB79 /* Pods-ZMeetDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67W5984PLX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZMeetDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abcpen.ZMeetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7DCA914254FF12300076B5B /* Build configuration list for PBXProject "ZMeetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DCA930254FF12600076B5B /* Debug */,
+				D7DCA931254FF12600076B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DCA932254FF12600076B5B /* Build configuration list for PBXNativeTarget "ZMeetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DCA933254FF12600076B5B /* Debug */,
+				D7DCA934254FF12600076B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7DCA911254FF12300076B5B /* Project object */;
+}

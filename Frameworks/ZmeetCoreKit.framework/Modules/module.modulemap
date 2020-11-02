@@ -1,0 +1,11 @@
+framework module ZmeetCoreKit {
+  umbrella header "ZmeetCoreKit.h"
+
+  export *
+  module * { export * }
+}
+
+module ZmeetCoreKit.Swift {
+    header "ZmeetCoreKit-Swift.h"
+    requires objc
+}
