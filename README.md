@@ -16,11 +16,7 @@ Version | Date |Changed By |Changes
 ### 请确保满足以下开发环境要求：
 * Apple XCode 10.0或以上版本
 * iOS 11.0或以上版本
-* 本sdk提供一个framework：
-```  
-1、ZMeetCoreKit.framework
 
-```
 ### pod导入
 ~~~
 pod 'ZMeetSDK'
